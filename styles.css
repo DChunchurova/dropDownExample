@@ -1,0 +1,43 @@
+body{
+	margin:0;
+	padding:0;
+	height: 100%;
+	background-image: url('globe2.png');
+	background-repeat: no-repeat; 
+	/*background-size: 100% 100%; */
+}
+
+#result {
+	color: purple;
+	text-decoration: underline;
+	font-size:20px;
+	display: inline-block;
+    width: 150px;	   
+
+}
+
+	#result :nth-child(2n+1) {
+		background-color:#8FBC8F;
+
+	}	
+
+	#result:nth-child(2n) {
+		background-color: #F0FFF0;
+		
+	}
+
+	#result div{
+		border-left: 1px solid grey;
+		border-right: 1px solid grey;
+	}
+
+	#result div:last-child{
+		border-bottom: 1px solid grey;
+	}
+
+#choose {			
+	font-size: 30px;		   		       
+    border-color: #ADD8E6;    
+    background-color: #FDF5E6;
+       
+}
